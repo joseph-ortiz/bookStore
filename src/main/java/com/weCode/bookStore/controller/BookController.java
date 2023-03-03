@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.weCode.bookStore.dto.BookDTO;
 
-
 @RestController
 @RequestMapping("api/v1/books")
 public class BookController {
@@ -23,7 +22,5 @@ public class BookController {
         List<BookDTO> books = new ArrayList<>();
         books.add(book);
         return ResponseEntity.ok(books);
-        
-        
     }
 }
