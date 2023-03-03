@@ -19,7 +19,7 @@ jar {
     manifest {
         attributes 'Implementation-Title': 'book Store',
                    'Implementation-Version': version,
-                   'Main-Class': 'bookStore.BookStoreApplication'
+                   'Main-Class': com.weCode.bookStore.BookStoreApplication'
     }
 }
 
