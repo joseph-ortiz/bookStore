@@ -9,3 +9,13 @@ Deplying to Heroku
 - github actions workflow - needed to specify the heroku step and api key to deploy the org.
   - get Heroku API key by logging into heroku and go to your account settings.
   - Add API key "HEROKU_API_KEY" to the repo settings. Settings --> secrets & variables --> actions
+
+
+FlywayDB and migrations
+1. convert application.properties to yaml
+2. add depenncy in gradle file.
+3. add migration directory /resources/db/migration
+4. add migration for SQL to CRUD the schema or modify data in the format `V1_DoSomething.sql`
+5. run `./gradlew flywayMigrate -i`
+
+[Flyway Official Docs for gradle](https://flywaydb.org/documentation/getstarted/firststeps/gradle)

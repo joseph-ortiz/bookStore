@@ -1,6 +1,5 @@
 package com.weCode.bookStore.dto;
 
-import com.fasterxml.jackson.databind.annotation.JsonAppend.Prop;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
