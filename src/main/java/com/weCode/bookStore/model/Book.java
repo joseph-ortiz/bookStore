@@ -1,8 +1,10 @@
 package com.weCode.bookStore.model;
 
 import java.util.UUID;
+import org.checkerframework.checker.nullness.qual.NonNull;
 
-import org.antlr.v4.runtime.misc.NotNull;
+
+import org.springframework.validation.annotation.Validated;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;
@@ -16,14 +18,18 @@ public class Book {
     private UUID id;
 
     @Column
-    @NotNull
+    @NonNull
     private String title;
     
     @Column
-    @NotNull
+    @NonNull
     private String description;
     
     @Column
-    @NotNull
+    @NonNull
     private int releaseYear;
+
+    public String print(){
+        return this.title + ' ' + this.description;
+    }
 }
