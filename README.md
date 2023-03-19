@@ -19,3 +19,11 @@ FlywayDB and migrations
 5. run `./gradlew flywayMigrate -i`
 
 [Flyway Official Docs for gradle](https://flywaydb.org/documentation/getstarted/firststeps/gradle)
+
+JaCOCO
+"JaCoCo runs as a Java agent. It's responsible for instrumenting the byte code while running the tests. JaCoCo drills into each instruction, and shows which lines are exercised during each test."
+
+run `./gradlew check'
+
+a html file is created showing test reports
+```build/reports/jacoco/test/html/index.html```
