@@ -34,3 +34,8 @@ Testing the Service Layer
 Testing Controller
 1. created a BookControllerTest class that calls the BookService.
 
+SpringDoc - support for OpenAPI Swagger UI docs
+1. Added build.gradle dependecy for Swagger-UI documentation of REST endpoints. Used [SpringDoc](https://springdoc.org/v2/)
+2. decided to use springdoc-openapi with out of box configuration.
+3. start the application and visitvisit `http://localhost:8080/swagger-ui/index.html#/`
+
