@@ -9,7 +9,6 @@ import org.springframework.http.ResponseEntity;
 
 import com.weCode.bookStore.dto.BookDTO;
 import com.weCode.bookStore.service.BookService;
-import static org.mockito.Mockito.description;
 import static org.mockito.Mockito.when;
 
 import java.util.ArrayList;
@@ -17,8 +16,6 @@ import java.util.List;
 import java.util.UUID;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
-import lombok.experimental.ExtensionMethod;
 
 @ExtendWith(MockitoExtension.class)
 public class BookControllerTest {

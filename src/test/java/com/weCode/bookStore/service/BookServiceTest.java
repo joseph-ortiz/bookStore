@@ -14,7 +14,6 @@ import com.weCode.bookStore.dto.BookDTO;
 import com.weCode.bookStore.model.Book;
 import com.weCode.bookStore.repository.BookRepository;
 
-import static org.mockito.Mockito.description;
 import static org.mockito.Mockito.when;
 import static org.assertj.core.api.Assertions.assertThat;
 
