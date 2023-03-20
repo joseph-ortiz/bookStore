@@ -24,8 +24,10 @@ JaCOCO
 "JaCoCo runs as a Java agent. It's responsible for instrumenting the byte code while running the tests. JaCoCo drills into each instruction, and shows which lines are exercised during each test."
 
 run `./gradlew check'
-
-Testing the Service Layer
-
 a html file is created showing test reports
 ```build/reports/jacoco/test/html/index.html```
+
+
+Testing the Service Layer
+1. created a BookServiceTest to find all books then worked on implementation.
+
