@@ -31,3 +31,6 @@ a html file is created showing test reports
 Testing the Service Layer
 1. created a BookServiceTest to find all books then worked on implementation.
 
+Testing Controller
+1. created a BookControllerTest class that calls the BookService.
+
