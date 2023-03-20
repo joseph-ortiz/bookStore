@@ -4,13 +4,19 @@ import java.util.UUID;
 import org.checkerframework.checker.nullness.qual.NonNull;
 
 
-import org.springframework.validation.annotation.Validated;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @jakarta.persistence.Entity
 public class Book {
     @Id

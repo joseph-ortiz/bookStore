@@ -25,5 +25,7 @@ JaCOCO
 
 run `./gradlew check'
 
+Testing the Service Layer
+
 a html file is created showing test reports
 ```build/reports/jacoco/test/html/index.html```

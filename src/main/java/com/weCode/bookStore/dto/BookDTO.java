@@ -1,6 +1,8 @@
 package com.weCode.bookStore.dto;
 
 
+import java.util.UUID;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -10,14 +12,15 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+/**
+ * 
+ */
 public class BookDTO {
+    private UUID id;
+
     private String title;
 
-    public String getTitle() {
-        return this.title;
-    }
+    private String description;
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
+    private int releaseYear;
 }
