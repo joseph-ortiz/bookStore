@@ -21,14 +21,15 @@ public class BookControllerTest {
     @Autowired
     private TestRestTemplate testRestTemplate;
 
-    @Test
+    /* @Test
     @Sql("classpath:initalSQLToInsertDataForTests.sql")
     void shouldReturnBooksWhenBookApiCalled(){
         String url = "http://localhost:"+port+"/api/v1/books";
         BookDTO[] listOfBooks = testRestTemplate.getForObject(url, BookDTO[].class);
         assertThat(listOfBooks).isNotNull();
         assertThat(listOfBooks.length).isEqualTo(2);
-    }
+    } */
+
     @Test
     @Sql("classpath:initalSQLToInsertDataForTests.sql")
     void shouldReturnBooksWhenBookApiCalled1(){
