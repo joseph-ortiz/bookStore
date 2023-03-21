@@ -8,7 +8,7 @@ spring:
       connection-test-query: SELECT 1
   
   jpa:
-    defer-datasource-initialization: true
+    #defer-datasource-initialization: true
     properties:
       database: POSTGRESQL
       show-sql: true
